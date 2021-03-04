@@ -24,13 +24,6 @@ I want to collaborate on any project that requires knowledge of c# and c++, with
 ⭐️ From [zKXDEX](https://github.com/zKXDEX)
 
 
-
-
-
-### Blogs posts
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
-
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://dev.to/zkxdex" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/dev-dot-to.svg" alt="zkxdex" height="30" width="40" /></a>
