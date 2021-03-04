@@ -2,6 +2,11 @@
 
 <h2> Hey there! I'm zKXDEX.</h2>
 
+Welcome to my profile, I am an 18 year old man who is passionate about programming.
+
+I want to collaborate on any project that requires knowledge of c# and c++, with the goal of learning more.
+
+ ️<img src="https://images.emojiterra.com/google/android-11/128px/270d.png" width="15px">Right now I'm learning java.
 
 
 <h3> 🛠 &nbsp;Tech Stack</h3>
