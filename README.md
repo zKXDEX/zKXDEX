@@ -34,4 +34,4 @@
   ![Photoshop](https://img.shields.io/badge/-Photoshop-333333?style=flat&logo=adobe-photoshop)
   ![InDesign](https://img.shields.io/badge/-InDesign-333333?style=flat&logo=adobe-indesign)
 
-⭐️ From [AVS1508](https://github.com/zKXDEX)
+⭐️ From [zKXDEX](https://github.com/zKXDEX)
