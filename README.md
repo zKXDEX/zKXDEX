@@ -6,5 +6,3 @@
 ## ABOUT ME: 
 
 #### Always curious to learn the latest technology. A bit of a cross-platform application development enthusiast. Competitive coding and motorsports boost my adrenaline. <br><br>
-
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
