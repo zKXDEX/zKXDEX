@@ -1,7 +1,7 @@
 ## Kind regards🙏
 
 [![](https://img.shields.io/badge/Gmail-deiividdlk@gmail.com-red)](mailto:deiividdlk@gmail.com)
-<!-- [![](https://img.shields.io/badge/Telegram-%zKXDEX-blue)](https://t.me/zKXDEX) -->
+[![](https://img.shields.io/badge/Discord-%zKXDEX-blue)](https://t.me/zKXDEX)
 
 ![](https://media.discordapp.net/attachments/826854081989050401/959757869740343356/ReadmeGit.png)
 
