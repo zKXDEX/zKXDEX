@@ -9,4 +9,4 @@
 
 #### Always curious to learn the latest technology. A bit of a cross-platform application development enthusiast. Competitive coding and motorsports boost my adrenaline. <br><br>
 
-⭐️ From [@zKXDEX](https://github.com/zKXDEX)
+⭐️ Profile [@zKXDEX](https://github.com/zKXDEX)
