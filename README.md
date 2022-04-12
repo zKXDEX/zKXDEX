@@ -6,6 +6,6 @@
 
 ## ABOUT ME: 
 
-#### Always curious to learn the latest technology. A bit of a cross-platform application development enthusiast. <br><br>
+#### The only thing you should know is that I'm always curious to learn the latest in technology. A bit of a cross-platform application development enthusiast. <br><br>
 
 ⭐️ Profile [@zKXDEX](https://github.com/zKXDEX)
