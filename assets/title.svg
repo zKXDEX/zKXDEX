@@ -2,6 +2,14 @@
     <foreignObject width="100%" height="100px">
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
+            div{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: blue;
+            }
               h1 {
                   color: red;
                   animation: bg 2s infinite;
