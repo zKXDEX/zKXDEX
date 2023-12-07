@@ -8,25 +8,45 @@
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" class="dcontainer">
         
-            <div class="box">
+            <div class="box about">
                <div class="dflex">
-                    <div class="dcolumn content">
-                        <h1>
-                            About Me
-                        </h1>
-                        <p>
-                        The only thing you should know is that I'm always curious to learn the latest in technology. A bit of a cross-platform application development enthusiast.
-                        </p>
-                    </div>
-
                     <div class="dcolumn img">
                         
                     </div>
+
+                    <div class="dcolumn content">
+                        <div class="position">
+                            <h1 class="name">
+                                David
+                            </h1>
+                            <a class="nick">
+                                @kdex
+                            </a>
+                            <p>
+                                The only thing you should know is that I'm always curious to learn the latest in technology. A bit of a cross-platform application development enthusiast.
+                            </p>
+                            <div class="content--stats">
+                                <div class="content--stats--item">
+                                    <h5>14</h5>
+                                    <script>console.log("hola")</script>
+                                    <p>Followers</p>
+                                </div>
+                                <div class="content--stats--item">
+                                    <h5>3</h5>
+                                    <p>Following</p>
+                                </div>
+                                <div class="content--stats--item">
+                                    <h5>120</h5>
+                                    <p>Commits</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
                </div>
             </div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
+            <div class="box skills"></div>
+            <div class="box test"></div>
             <style>
 
             @font-face {
@@ -49,17 +69,15 @@
             .dcontainer{
                 width: 100%;
                 height: 100%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-wrap: wrap;
-                flex-direction: row;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(2, 1fr); 
                 gap: 10px;
                 <!-- background-color: blue; -->
             }
             .dcontainer .box{
-                width: calc(50% - 10px);
-                height: calc(50% - 10px);
+                width: 100%;
+                height: 100%;
                 border-top: 1px solid rgb(255 255 255 / 0.01);
                 display: flex;
                 justify-content: center;
@@ -71,6 +89,17 @@
                 overflow: hidden;
             }
 
+            .box.about{
+                 grid-area: 1 / 1 / 2 / 3;
+            }
+
+            .box.skills{
+                  grid-area: 2 / 1 / 3 / 2;
+            }
+
+            .box.test{
+                   grid-area: 2 / 2 / 3 / 3;
+            }
             .dflex{
                 display: flex;
                 justify-content: center;
@@ -90,22 +119,93 @@
                 height: 100%;
             }
 
+            .dcolumn.img{
+                width: 30%;
+
+            }
+            
+            .dcolumn.content{
+                width: 70%;
+
+            }
+
+            .position{
+                display:flex;
+                justify-content: center;
+                align-items: flex-start;
+                flex-direction: column;
+                height: 100%;
+                padding: 10px;
+            }
+
             h1{
-                color: #fff;
+                color: silver;
                 text-transform: uppercase;
-                font-family: 'Fira Code', monospace;
+                font-family: 'Fira Code', sans-serif;
                 font-size: 900;
                 font-size: .8rem;
                 
             }
 
-            p{
+            h5{
                 color: silver;
-                font-family: 'Fira Code', monospace;
-                font-size: .5rem;
+                text-transform: uppercase;
+                font-family: 'Fira Code', sans-serif;
                 font-size: 900;
+                font-size: .6rem;
+                
+            }
+
+            .name{
+                margin-bottom: .6vh; 
+            }
+
+            .nick{
+                color: gray;
+                margin: 0; 
+                font-family: 'Fira Code', sans-serif;
+                font-size: .5rem !important;
+            }
+
+            p{
+                color: gray;
+                font-family: 'Fira Code', sans-serif;
+                font-size: .5rem;
                 line-height: 1.5;
             
+            
+            }
+
+
+            .content--stats{
+                display: flex;
+                justify-content: space-around;
+                align-items: flex-start;
+                flex-direction: row;
+                width: 100%;
+            }
+            
+
+            .content--stats--item{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                border-right: 1px solid rgb(255 255 255 / 0.1); 
+                width: 100%;
+                height: auto;
+                padding: 5px;
+            }
+
+            .content--stats--item:last-child{
+                border-right: none;
+            }
+
+            .content--stats--item h5, .content--stats--item p{
+                width: auto;
+                height: auto;
+                margin: 0;
+                margin-top: 2px;
             }
 
               @keyframes bg {
