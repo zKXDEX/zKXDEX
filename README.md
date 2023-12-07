@@ -2,7 +2,7 @@
 
 [![](https://img.shields.io/badge/Gmail-deiividdlk@gmail.com-red)](mailto:deiividdlk@gmail.com)
 
-![](https://media.discordapp.net/attachments/826854221625163788/1182171467413192734/codesnapReadme.png?ex=6583b9f9&is=657144f9&hm=e734de08b440f5b2a018b69915e22c0a0bac3a397a9576abc87c2c4387dd1b5b&=&format=webp&quality=lossless&width=750&height=671)
+![](https://media.discordapp.net/attachments/826854221625163788/1182172439308947536/image.png?ex=6583bae1&is=657145e1&hm=838dd2237734342e0d4bae9fd352465bd436988e64d2221eb26af156164ed69b&=&format=webp&quality=lossless)
 
 ## ABOUT ME: 
 
