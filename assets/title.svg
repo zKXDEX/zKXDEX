@@ -4,7 +4,7 @@
 
 
         <div xmlns="http://www.w3.org/1999/xhtml" class="kuma">
-          <div class="kuma-al"></div>
+          <div xmlns="http://www.w3.org/1999/xhtml" class="kuma-al"></div>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" class="dcontainer">
         
@@ -39,15 +39,39 @@
                                     <h5>400</h5>
                                     <p>Commits</p>
                                 </div>
-                                
                             </div>
                             
                         </div>
                     </div>
                </div>
             </div>
-            <div class="box skills"></div>
-            <div class="box test"></div>
+            <div class="box dcolumn skills">
+                <div class="dcolumn content">
+                    <div class="position">
+                        <h1 class="name">
+                            Skills
+                        </h1>
+                        <p>
+                            Specialized in backend development and infrastructure technologies, with skills in C#, C++ and C, and handling Docker, Terraform and Kubernetes. Experienced in frontend development with HTML, CSS, JavaScript and React, providing comprehensive and efficient technical solutions.
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="box test">
+                <div class="dcolumn content">
+                    <div class="position">
+                    <image xlink:href="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=zkxdex&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats"  />
+                        <!-- <h1 class="name">
+                            Skills
+                        </h1>
+                        <p>
+                            Specialized in backend development and infrastructure technologies, with skills in C#, C++ and C, and handling Docker, Terraform and Kubernetes. Experienced in frontend development with HTML, CSS, JavaScript and React, providing comprehensive and efficient technical solutions.
+                        </p> -->
+                        
+                    </div>
+                </div>
+            </div>
             <style>
 
             @font-face {
@@ -133,7 +157,6 @@
                 width: 50px;
                 height: 50px;
                 border-radius: 50%;
-                
             }
             
             .dcolumn.content{
