@@ -1,20 +1,50 @@
- <svg fill="none" viewBox="0 0 400 400" width="100%" height="100" xmlns="http://www.w3.org/2000/svg">
-    <foreignObject width="100%" height="10px">
-        <div xmlns="http://www.w3.org/1999/xhtml">
+ <svg fill="none" viewBox="0 0 400 400" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="100%" height="100%">
+        
+        <div xmlns="http://www.w3.org/1999/xhtml" class="dcontainer">
+        <div class="kuma">
+          <div class="kuma-al"></div>
+        </div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
             <style>
-            div{
+           
+           .kuma {
+                display: initial;
+                background: #fff;
+                }
+
+            .kuma-al {
+                position: fixed;
+                z-index: -1;
+                background: radial-gradient(circle at 75% 50%,#ff002b3a,hsla(0,0%,100%,0) 25%),radial-gradient(circle at 60% 30%,#ff002b3a,hsla(0,0%,100%,0) 10%);
+                inset: 0;
+            }
+
+            .dcontainer{
                 width: 100%;
                 height: 100%;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                background-color: blue;
+                flex-wrap: wrap;
+                flex-direction: row;
+                gap: 0.7rem;
+                <!-- background-color: blue; -->
             }
-              h1 {
-                  color: red;
-                  animation: bg 2s infinite;
-              }
-
+            .dcontainer .box{
+                width: calc(50% - 0.7rem);
+                height: calc(50% - 0.7rem);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 10px;
+                 background-color: rgb(255 255 255 / 0.01);
+                <!-- background: rgba(10,10,10, 0.5); -->
+                backdrop-filter: blur(50px);
+            }
               @keyframes bg {
                   from {
                       color: blue;
@@ -24,7 +54,6 @@
                   }
               }
             </style>
-            <h1>HELLO WORLD!</h1>
         </div>
     </foreignObject>
   </svg>
