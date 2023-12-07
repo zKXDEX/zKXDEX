@@ -63,9 +63,9 @@
                     <div class="position">
                    
       <svg
-        width="300"
+        width="500"
         height="100%"
-        viewBox="0 0 300 500"
+        viewBox="0 0 500 500"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
@@ -78,10 +78,10 @@
 
             svg.language{
                 position: absolute;
-                width: 300px;
+                width: 500px;
                 height: 500px;
                 left: 0;
-                transform: translateX(-20%) scale(0.65) translateY(-20%);
+                transform: translateX(-18%) scale(0.65) translateY(-17%);
                 top: 0;
             }
 
