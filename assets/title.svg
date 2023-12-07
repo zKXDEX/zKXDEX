@@ -1,15 +1,38 @@
  <svg fill="none" viewBox="0 0 400 400" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
     <foreignObject width="100%" height="100%">
+
+
+
         <div xmlns="http://www.w3.org/1999/xhtml" class="kuma">
           <div class="kuma-al"></div>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" class="dcontainer">
         
-            <div class="box"></div>
+            <div class="box">
+               <div class="dflex">
+                    <div class="dcolumn content">
+                        <h1>
+                            About Me
+                        </h1>
+                        <p>
+                        The only thing you should know is that I'm always curious to learn the latest in technology. A bit of a cross-platform application development enthusiast.
+                        </p>
+                    </div>
+
+                    <div class="dcolumn img">
+                        
+                    </div>
+               </div>
+            </div>
             <div class="box"></div>
             <div class="box"></div>
             <div class="box"></div>
             <style>
+
+            @font-face {
+                font-family: 'Fira Code';
+                src: url(./fonts/FiraCode-Bold.ttf);
+            }
            
            .kuma {
                 display: initial;
@@ -37,14 +60,54 @@
             .dcontainer .box{
                 width: calc(50% - 10px);
                 height: calc(50% - 10px);
+                border-top: 1px solid rgb(255 255 255 / 0.01);
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 border-radius: 10px;
                  background-color: rgb(255 255 255 / 0.01);
-                <!-- background: rgba(10,10,10, 0.5); -->
                 backdrop-filter: blur(50px);
+                webkit-backdrop-filter: blur(100%);
+                overflow: hidden;
             }
+
+            .dflex{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                width: 100%;
+                height: 100%;
+                padding: 10px;
+            }
+
+            .dcolumn{
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-direction: column;
+                width: calc(50% - 10px);
+                height: 100%;
+            }
+
+            h1{
+                color: #fff;
+                text-transform: uppercase;
+                font-family: 'Fira Code', monospace;
+                font-size: 900;
+                font-size: .8rem;
+                
+            }
+
+            p{
+                color: silver;
+                font-family: 'Fira Code', monospace;
+                font-size: .5rem;
+                font-size: 900;
+                line-height: 1.5;
+            
+            }
+
               @keyframes bg {
                   from {
                       color: blue;
