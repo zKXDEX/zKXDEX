@@ -42,7 +42,11 @@
                                 
                             </div>
 
-                            <button>hola</button>
+                            <div class="dflex btn-cont">
+                                <button>Profile</button>
+                                <button class="border">Portfolio</button>
+                            </div>
+                            
                         </div>
                     </div>
                </div>
@@ -221,8 +225,21 @@
                 margin-top: 2px;
             }
 
+            .btn-cont{
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                width: 70%;
+                height: auto;
+                margin-top: 10px;
+            }
+
             button{
-                border-radius: 5px;
+                <!-- height: 3vh; -->
+                padding: 5px 0;
+                width: 10vh;
+                border-radius: 3px;
+                margin-right: 10px;
                 border: none;
                 background-color: #fff;
                 color: #000;
@@ -237,6 +254,12 @@
             button:hover{
                 background-color: #000;
                 color: #fff;
+            }
+
+            button.border{
+                border: 0.2px solid silver;
+                background-color: transparent;
+                 color: silver;
             }
 
               @keyframes bg {
