@@ -4,7 +4,7 @@
   </a>
 </h1>
 
-<div style="width: 100%;">
+<div align="center">
   <img src="./assets/title.svg" style="width: 100%;" alt="Click to see the source">
 </div>
 
