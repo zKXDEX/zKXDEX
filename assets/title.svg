@@ -43,8 +43,8 @@
                             </div>
 
                             <div class="dflex btn-cont">
-                                <button>Profile</button>
-                                <button class="border">Portfolio</button>
+                                <button><a href="https://github.com/zKXDEX" role="button" style="width:100%; height: 100%;">Profile</a></button>
+                                <button class="border"><a href="https://zkxdex.github.io/" role="button" style="width:100%; height: 100%;">Portfolio</a></button>
                             </div>
                             
                         </div>
