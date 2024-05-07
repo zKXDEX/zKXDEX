@@ -26,7 +26,7 @@
                             <p>
                                 The only thing you should know is that I'm always curious to learn the latest in technology. A bit of a cross-platform application development enthusiast.
                             </p>
-<!--                             <div class="content--stats">
+                            <div class="content--stats">
                                 <div class="content--stats--item">
                                     <h5>16</h5>
                                     <p>Followers</p>
@@ -41,7 +41,7 @@
                                 </div>
                             </div>
                             
-                        </div> -->
+                        </div>
                     </div>
                </div>
             </div>
@@ -507,7 +507,7 @@
                 justify-content: center;
                 align-items: center;
                 flex-direction: column;
-                border-right: 1px solid rgb(255 255 255 / 0.1); 
+<!--                 border-right: 1px solid rgb(255 255 255 / 0.1);  -->
                 width: 100%;
                 height: auto;
                 padding: 5px;
