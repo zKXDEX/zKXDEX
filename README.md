@@ -22,6 +22,10 @@
 
 # [![header](assets/a_ca9af840f441cf31b67263cfd2c3996c.gif)](https://zkxdex.github.io/)
 
+# @zKXDEX
+
+Software engineer, full stack developer, and a passionate about the latest in technology.
+
 ---
 
 <table>
